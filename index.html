@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d2ec5b0cd6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img class="logo" src="./images/Screenshot 2023-06-19 185847.png" alt="">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#one">About</a></li>
+                <li><a href="#two">Services</a></li>
+                <li><a href="#three">Portfolio</a></li>
+                <li><a href="#foour">Contact</a></li>
+            </ul>
+            </nav>
+
+            <div class="header" >
+                <p class="head"> Web Developer</p>
+                <h1 class="head">Hi, I'm <span>Geetansh</span></h1>
+            </div>
+            
+        </div>
+
+    </div>
+    <!-- --------About--- -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"><img class="about-img" src="./images/img2.jpg" alt=""></div>
+                <div class="col-2 ">
+                    <h1 id="one">About me</h1>
+                    <p>Hlo i m Geetansh, I am from Punjab. Currently I'm studying in NIT Jalandhar.I love to do the programming and love to do other activities as well like gyming </p>
+
+                    <div class="tab-titles ">
+                        <p class="tab-links after-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab skills" id="skills">
+                        <li><span>Full Stack Developer</span></li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BOOTSTRAP</li>
+                        <li>JAVASCRIPT</li>
+                        <li>JQUERY</li>
+                        <li>NODE.JS</li>
+                        <li>EXPRESS</li>
+                        <li>API</li>
+                        <li>REACT.JS</li>
+
+                    </div>
+                    <div class="tab-contents " id="projects">
+                        <li>shopping website</li>
+                        <li>Videos platform</li>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <li><span>Class 10th</span></li>
+                        <li>Scored 85% CBSE board</li>
+                        <li><span>Class 12th</span></li>
+                        <li>Scored 80% CBSE board</li>
+                        <li><span>College</span></li>
+                        <li>Dr. B.R. Ambedkar National Institute of Technology, Jalandhar</li>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- --------services-------- -->
+    <div class="services">
+        <div class="container abc">
+            <h1 id="two">My Services</h1>
+            <div class="service-tab">
+                <div class="service-tab1">
+                    <i class="fa-solid fa-code fa-beat"></i>
+                    <h2 >Front-End Development:</h2>
+                    <ul>
+                        <li>Create visually appealing user interfaces using HTML, CSS, and JavaScript.</li>
+                        <li>Create visually appealing user interfaces using HTML, CSS, and JavaScript.</li>
+                        <li>Optimize website performance and ensure cross-browser compatibility.</li>
+                    </ul>
+                </div>
+                <div class="service-tab1">
+                    <i class="fa-brands fa-node-js fa-beat"></i>
+                    
+                    <h2>Back-End Development:</h2>
+                    <ul>
+                        <li>Design and implement server-side architecture using frameworks like Node.js or Django.</li>
+                        <li>Develop RESTful APIs for seamless communication between front-end and back-end.</li>
+                        <li>Handle data storage, database management, and integration with third-party services.</li>
+                    </ul>
+                </div>
+                <div class="service-tab1">
+                    <i class="fa-sharp fa-solid fa-database fa-beat"></i>
+                    
+                    <h2>Database Management:</h2>
+                    <ul>
+                        <li>Design and optimize relational databases using SQL or NoSQL technologies.</li>
+                        <li>Implement efficient data models and ensure data integrity.</li>
+                        <li>Implement efficient data models and ensure data integrity.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- -----my work ----------------- -->
+    <div class="work">
+        <div class="container">
+            <h1 id="three">My Work</h1>
+            <div class="worklist">
+                <div class="worklist1">
+                <img  src="./images/preview.jpg" alt="">
+                    <div class="workcontent">
+                    <h2>Gym website</h2>
+                    <p>The website provide you the details of gym</p>
+                    </div>
+                </div>
+                <div class="worklist1">
+                    <img class="workimg" src="./images/shopping_cart_Free13-12-2017_226442961.jpg" alt="">
+                <div class="workcontent">
+                    <a  href="https://geetanshop.github.io/Shopping-Web/"><h2>Shopping website</h2></a>
+                    <p>The website provide you the experience of ecart website </p>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------contact me----- -->
+    <div class="contact">
+        <div class="container">
+            <div class="main-side">
+            <div class="left-side">
+                <h1 id="foour">Contact Me</h1>
+                <div class="contact-icon"><i class="fa-solid fa-share op"></i> bangageetansh@gmail.com</div>
+                <div class="contact-icon"><i class="fa-solid fa-phone op"></i> 9876332949</div>
+                <div class="icons">
+                    <div class="social-icon"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="social-icon"><a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a></div>
+
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+
+            </div>
+
+            <div class="right-side ">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="text" name="email" placeholder="Your Email">
+                    <textarea name="Message" id=""  rows="6" placeholder="Your message"></textarea>
+                    <button class="btn btn2" type="submit">Submit</button>
+                </form>
+            </div>
+
+
+        </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>
